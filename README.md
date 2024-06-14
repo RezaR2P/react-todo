@@ -59,18 +59,24 @@ Untuk menjalankan aplikasi ini secara lokal, ikuti langkah-langkah berikut:
 
 ## Struktur File
 
+```plaintext
 react-todo/
-├── public/ # Direktori untuk file publik
-└── src/ # Direktori utama aplikasi
-├── components/ # Direktori untuk komponen React
-│ ├── Header.jsx # Komponen header aplikasi
-│ └── Tasks.jsx # Komponen daftar tugas
-├── pages/ # Direktori untuk halaman-halaman aplikasi
-│ ├── Goodbye.jsx # Halaman perpisahan
-│ ├── Home.jsx # Halaman utama untuk manajemen tugas
-│ └── Welcome.jsx # Halaman selamat datang
-├── App.js # Komponen utama aplikasi
-└── index.js # File utama untuk rendering aplikasi
+├── public/         # Direktori untuk file publik seperti index.html, gambar, dll.
+└── src/            # Direktori utama aplikasi
+    ├── components/ # Direktori untuk komponen React
+    │   ├── Header/         # Direktori untuk komponen Header
+    │   │   ├── Header.jsx  # File komponen Header
+    │   │   └── styles.css  # File gaya untuk komponen Header
+    │   ├── Tasks/          # Direktori untuk komponen Daftar Tugas
+    │   │   ├── Tasks.jsx   # File komponen Daftar Tugas
+    │   │   └── styles.css  # File gaya untuk komponen Daftar Tugas
+    ├── pages/      # Direktori untuk halaman-halaman aplikasi
+    │   ├── Goodbye.jsx     # Halaman perpisahan
+    │   ├── Home.jsx        # Halaman utama untuk manajemen tugas
+    │   └── Welcome.jsx     # Halaman selamat datang
+    ├── App.js      # Komponen utama aplikasi
+    └── index.js    # File utama untuk rendering aplikasi
+```
 
 ## Berkontribusi
 
